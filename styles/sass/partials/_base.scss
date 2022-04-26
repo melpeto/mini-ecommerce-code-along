@@ -5,6 +5,12 @@
     margin: 0 auto;
 }
 
+// this ensures img elements obey the dimensions of the parent
+img {
+    width: 100%;
+    display: block;
+}
+
 /* buttons */
 
 button {

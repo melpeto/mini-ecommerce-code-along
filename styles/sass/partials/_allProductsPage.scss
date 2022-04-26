@@ -1,0 +1,36 @@
+// products page
+
+.productsMainContent {
+    text-align: center;
+    section {
+        padding: 75px 0;
+    }
+    // flex-parent:
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        // flex-basis controls the flex-CHILD // flex-child:
+        li {
+        // flex-basis represents width property because the flex-direction is row
+        flex-basis: calc(100%/3 - 30px);
+        margin: 5px 15px;
+        }
+        img {
+            border-radius: 10px;
+        }
+    }
+    .popularProduct {
+        font-weight: bold;
+    }
+    .discountedPrice {
+        text-decoration: line-through;
+        color: rgba($color: $primary, $alpha: 0.5);
+        span {
+            display: inline-block;
+            text-decoration: none;
+            color: rgba($color: $primary, $alpha: 1);
+        }
+    }
+
+}
+
