@@ -73,6 +73,7 @@ button {
 }
 
 a {
+    display: inline-block;
     &.button {
         color: $primary;
         background-color: transparent;
