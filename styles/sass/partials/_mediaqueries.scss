@@ -1,0 +1,11 @@
+@media (max-width: 975px) {
+    header {
+        flex-direction: column;
+        .headerImgContainer {
+            width: 100%;
+        }
+        .headerContent {
+            width: 100%;
+        }
+    }
+}

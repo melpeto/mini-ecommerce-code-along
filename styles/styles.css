@@ -587,3 +587,18 @@ footer .footerNav nav a:hover {
 footer .footerNav nav a:focus {
   color: white;
 }
+
+@media (max-width: 975px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .headerImgContainer {
+    width: 100%;
+  }
+  header .headerContent {
+    width: 100%;
+  }
+}
